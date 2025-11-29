@@ -1,5 +1,22 @@
 [
-  { "id": "1", "title": "Frontend Engineer", "department": "Engineering", "location": "Remote", "type": "Full-time" },
-  { "id": "2", "title": "UI/UX Designer", "department": "Design", "location": "London", "type": "Contract" },
-  { "id": "3", "title": "Marketing Lead", "department": "Marketing", "location": "New York", "type": "Full-time" }
+  { "id": "1", "title": "Frontend Engineer", "department": "Engineering", "location": "Kabul", "type": "Full-time" },
+  { "id": "2", "title": "Backend Developer", "department": "Engineering", "location": "Doshanbe", "type": "Full-time" },
+  { "id": "3", "title": "UI/UX Designer", "department": "Design", "location": "New York", "type": "Contract" },
+  { "id": "4", "title": "Graphic Designer", "department": "Design", "location": "Dubai", "type": "Full-time" },
+  { "id": "5", "title": "Marketing Lead", "department": "Marketing", "location": "Kabul", "type": "Full-time" },
+  { "id": "6", "title": "Social Media Manager", "department": "Marketing", "location": "London", "type": "Contract" },
+  { "id": "7", "title": "Sales Executive", "department": "Sales", "location": "Kabul", "type": "Full-time" },
+  { "id": "8", "title": "Account Manager", "department": "Sales", "location": "Kabul", "type": "Contract" },
+  { "id": "9", "title": "HR Coordinator", "department": "Human Resources", "location": "Berlin", "type": "Full-time" },
+  { "id": "10", "title": "Recruiter", "department": "Human Resources", "location": "Kabul", "type": "Contract" },
+  { "id": "11", "title": "Product Manager", "department": "Product", "location": "Wales", "type": "Full-time" },
+  { "id": "12", "title": "Business Analyst", "department": "Product", "location": "New York", "type": "Contract" },
+  { "id": "13", "title": "Data Scientist", "department": "Data", "location": "Kabul", "type": "Full-time" },
+  { "id": "14", "title": "Data Analyst", "department": "Data", "location": "Kabul", "type": "Contract" },
+  { "id": "15", "title": "DevOps Engineer", "department": "Engineering", "location": "Kabul", "type": "Full-time" },
+  { "id": "16", "title": "QA Engineer", "department": "Engineering", "location": "Rio de Janeiro", "type": "Contract" },
+  { "id": "17", "title": "Content Writer", "department": "Marketing", "location": "Kabul", "type": "Full-time" },
+  { "id": "18", "title": "SEO Specialist", "department": "Marketing", "location": "Toronto", "type": "Contract" },
+  { "id": "19", "title": "Customer Support Representative", "department": "Support", "location": "Doshanbe", "type": "Full-time" },
+  { "id": "20", "title": "Technical Support Engineer", "department": "Support", "location": "DC", "type": "Contract" }
 ]
