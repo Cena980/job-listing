@@ -1,27 +1,97 @@
-# Job Listing Component with Filters
+# Job Listing Component with Client-Side Filtering — Technical Documentation
+1. Project Overview
 
-A responsive React component that displays a list of job openings with filtering functionality.
+The Job Listing Component is a client-rendered user interface module that enables users to browse job openings and apply real-time, client-side filtering. The filters include department, job location, job type, and optional job title search. The module prioritizes clarity, responsiveness, and maintainability while demonstrating structured frontend development practices.
 
-## Requirements:
-. Use Next.js 14+ (App Router) and TypeScript.
+2. Purpose and Scope
 
-. Create a responsive layout that works on desktop and mobile.
+This document describes:
 
-. Fetch job data from a provided mock API endpoint (a simple JSON file you host on GitHub Gist or a mock API service).
+* Recommended directory organization
 
-. Display each job's title, department, location, and type (Full-time/Contract).
+* Local JSON mock API integration strategy
 
-### Implement client-side filters for:
-* Department (e.g., Engineering, Design, Marketing)
+* Inclusion of new directories into an existing repository
 
-* Location (e.g., Remote, New York, London)
+* Technical design guidelines for filter-driven UI behavior*
 
-* Job Type (Full-time, Contract)
+3. System Requirements
+### Framework	
 
-* Use Tailwind CSS for styling.
+A Next.js project using the App Router structure
+### Rendering	
 
-. (Bonus) Implement a search function that filters jobs by title.
+Client-side filtering without backend dependency
+### Data Source	
 
-. (Bonus) Write a simple unit test for the filtering logic using Jest and React Testing Library.
+A local JSON file used for mock API responses
 
+Styling	Responsive layout design
+### Testing System
 
+#### Jest
+
+Supports test environment configurations compatible with frontend logic validation
+
+4. Directory Structure
+
+job-listing/
+├── app/
+│   ├── components/
+│   │   └── JobList.tsx
+│   ├── api/  (optional mock API routes)
+│   │   └── jobs/route.ts (optional)
+│   └── page.tsx
+├── public/
+│   └── jobs.json
+├── types/
+│   └── job.ts
+└── utils/
+    └── jobFilter.ts
+
+5. Mock API Using Local JSON
+
+Data fetched through the component is stored in a local .json file.
+
+6. Filtering Logic
+
+Data fetched from the API is filtered by Department, Location, Type, and Title.
+
+User can easily change filters through a filter section at the top of the component.
+
+7. How to run
+
+* clone the repository locally:
+
+git clone <link to reporsitory>
+
+* Install the dependencies
+
+npm install
+
+* Run the app server
+
+"npm run dev" to run the development server.
+"npm run build" > "npm run start" to run a prebuilt app.
+
+* run test cases
+
+"npm run test"
+
+8. Testing Environment
+
+Testing environment is set up using Jest.
+
+4 test cases, one for each of the filtering options is created.
+
+### in the last commit all 4 test units passed successfully.
+
+9. Maintainability
+
+This app is build to ensure readability and maintainability.
+
+Separate directories are used to allow for convenient file classification.
+
+component is stored in a separate directory.
+
+Filterign logic, types, and tests are also stored in their own directories.
