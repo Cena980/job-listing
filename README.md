@@ -36,18 +36,26 @@ Supports test environment configurations compatible with frontend logic validati
 4. Directory Structure
 
 job-listing/
-├── app/
-│   ├── components/
-│   │   └── JobList.tsx
-│   ├── api/  (optional mock API routes)
-│   │   └── jobs/route.ts (optional)
-│   └── page.tsx
+
 ├── public/
+
 │   └── jobs.json
-├── types/
-│   └── job.ts
-└── utils/
-    └── jobFilter.ts
+
+├── app/
+
+│   ├── components/
+
+│   │   └── JobList.tsx
+
+│   └── page.tsx
+
+|    └── types/
+
+│       └── job.ts
+
+|    └── utils/
+
+|        └── jobFilter.ts
 
 5. Mock API Using Local JSON
 
