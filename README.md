@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The Job Listing Component is a client-rendered user interface module that enables users to browse job openings and apply real-time, client-side filtering. The filters include department, job location, job type, and optional job title search. The module prioritizes clarity, responsiveness, and maintainability while demonstrating structured frontend development practices.
+The Job Listing Component is a client-rendered user interface that enables users to browse job openings and filter them using client-side filtering. The filters include department, job location, job type, and optional job title search. The module prioritizes clarity, responsiveness, and maintainability.
 
 ## Purpose and Scope
 
