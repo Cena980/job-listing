@@ -1,4 +1,4 @@
-### Job Listing Component with Filters
+# Job Listing Component with Filters
 
 A responsive React component that displays a list of job openings with filtering functionality.
 
@@ -11,7 +11,7 @@ A responsive React component that displays a list of job openings with filtering
 
 . Display each job's title, department, location, and type (Full-time/Contract).
 
-# Implement client-side filters for:
+### Implement client-side filters for:
 . Department (e.g., Engineering, Design, Marketing)
 
 . Location (e.g., Remote, New York, London)
