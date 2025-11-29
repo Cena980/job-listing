@@ -12,13 +12,13 @@ A responsive React component that displays a list of job openings with filtering
 . Display each job's title, department, location, and type (Full-time/Contract).
 
 ### Implement client-side filters for:
-. Department (e.g., Engineering, Design, Marketing)
+* Department (e.g., Engineering, Design, Marketing)
 
-. Location (e.g., Remote, New York, London)
+* Location (e.g., Remote, New York, London)
 
-. Job Type (Full-time, Contract)
+* Job Type (Full-time, Contract)
 
-. Use Tailwind CSS for styling.
+* Use Tailwind CSS for styling.
 
 . (Bonus) Implement a search function that filters jobs by title.
 
